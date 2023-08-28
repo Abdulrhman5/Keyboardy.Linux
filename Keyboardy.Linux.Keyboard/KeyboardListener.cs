@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using static Keyboardy.Linux.Keyboard.Constants;
 
 namespace Keyboardy.Linux.Keyboard;
-internal class KeyboardListener
+public class KeyboardListener
 {
 
-    public string inputFilePath = "/dev/input/by-path/platform-i8042-serio-0-event-kbd";
+    private string inputFilePath = "/dev/input/by-path/platform-i8042-serio-0-event-kbd";
 
     private bool IsReflectorDown = false;
 

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Keyboardy.Linux.Keyboard;
-internal class Constants
+public class Constants
 {
     public const int O_RONLY = 0;
     public const int O_WRONLYO_NONBLOCK = 2049;

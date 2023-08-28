@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Keyboardy.Linux.Keyboard;
-interface IKeyEventHandler
+public interface IKeyEventHandler
 {
     public void Handle(input_event inputEvent);
 }

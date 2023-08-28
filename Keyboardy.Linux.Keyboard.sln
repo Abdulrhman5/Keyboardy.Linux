@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboardy.Linux.Keyboard", "Keyboardy.Linux.Keyboard\Keyboardy.Linux.Keyboard.csproj", "{D85913A1-5400-4C7B-AB7D-5DB763526E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keyboardy.Linux.Keyboard", "Keyboardy.Linux.Keyboard\Keyboardy.Linux.Keyboard.csproj", "{D85913A1-5400-4C7B-AB7D-5DB763526E3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyboardy.Linux.Keyboard.ConsoleSample", "Keyboardy.Linux.Keyboard.ConsoleSample\Keyboardy.Linux.Keyboard.ConsoleSample.csproj", "{C53E5C22-17AB-42B1-A2E6-D1E82798A1C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D85913A1-5400-4C7B-AB7D-5DB763526E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D85913A1-5400-4C7B-AB7D-5DB763526E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D85913A1-5400-4C7B-AB7D-5DB763526E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53E5C22-17AB-42B1-A2E6-D1E82798A1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53E5C22-17AB-42B1-A2E6-D1E82798A1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53E5C22-17AB-42B1-A2E6-D1E82798A1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53E5C22-17AB-42B1-A2E6-D1E82798A1C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

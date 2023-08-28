@@ -5,7 +5,7 @@ using static System.Runtime.CompilerServices.RuntimeHelpers;
 
 namespace Keyboardy.Linux.Keyboard;
 
-internal class EventSender 
+public class EventSender 
 {
     private string outputFilePath = "/dev/uinput";
     private int outputHandle = 0;
@@ -102,7 +102,10 @@ internal class EventSender
         var eventPtr = Marshal.AllocHGlobal(inputEventLength);
         Marshal.StructureToPtr(@event, eventPtr, true);
 
-        SendEvent(eventPtr, @event);
+        if (NativeMethods.Write(outputHandle, eventPtr, inputEventLength) < 0)
+        {
+            throw new InvalidOperationException($"Error while writing inputEventPtr");
+        }
         Marshal.FreeHGlobal(eventPtr);
     }
 

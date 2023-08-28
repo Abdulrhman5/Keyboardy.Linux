@@ -1,5 +1,5 @@
 ﻿namespace Keyboardy.Linux.Keyboard;
-internal static class Keycodes
+public static class Keycodes
 {
     public const int RESERVED = 0;
     public const int ESC = 1;
