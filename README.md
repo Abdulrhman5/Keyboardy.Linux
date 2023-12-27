@@ -1,4 +1,4 @@
-# Keyboard logger and Keyboard event sender.
+# Linux Keyboard logger and Keyboard event sender.
 This repository contains a C# library that help you log keyboard strokes and send keyboard events, it is built to be used for [Keyboardy](https://Keyboardy.net).
 
 
